@@ -16,8 +16,6 @@ end
   #   correct number of times?
   # Maybe we should keep count of the number of times we've puts out the 
   #  phrase and break when the counter hits the appropriate number...
-  phrase = "Welcome to Flatiron School's Web Development Course!"
-  
 
 
 def times_iterator(number_of_times)
@@ -32,7 +30,6 @@ def while_iterator(number_of_times)
   # hint: user a counter to tell the while loop when to stop!
   counter = 0 
   while counter < 7
-  phrase = "Welcome to Flatiron School's Web Development Course!"
   puts "Welcome to Flatiron School's Web Development Course!"
   counter += 1 
   end
