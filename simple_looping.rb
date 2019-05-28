@@ -22,7 +22,7 @@ end
 
 def times_iterator(number_of_times)
   number_of_times.times do
-    puts "#{phrase}"
+    puts "Welcome to Flatiron School's Web Development Course!"
   end
   # code your solution here using the "times" keyword
   phrase = "Welcome to Flatiron School's Web Development Course!"
@@ -33,7 +33,7 @@ def while_iterator(number_of_times)
   # code your solution here using the "while" keyword
   # hint: user a counter to tell the while loop when to stop!
   counter = 0 
-  while counter < 10 
+  while counter <  
   phrase = "Welcome to Flatiron School's Web Development Course!"
   puts "#{phrase}"
   counter += 1 
